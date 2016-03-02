@@ -1,5 +1,4 @@
 module WinUser
-
-# package code goes here
-
-end # module
+include("c_types.jl")
+include("c_interface.jl")
+end
